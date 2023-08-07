@@ -15,10 +15,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from Infinix_X6833B device
 $(call inherit-product, device/infinix/Infinix-X6833B/device.mk)
 
-PRODUCT_DEVICE := Infinix_X6833B
-PRODUCT_NAME := twrp_Infinix_X6833B
+PRODUCT_DEVICE := X6833B
+PRODUCT_NAME := twrp_X6833B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix_X6833B
+PRODUCT_MODEL := Infinix X6833B
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
