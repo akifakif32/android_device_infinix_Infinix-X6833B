@@ -119,3 +119,6 @@ BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 BOARD_RAMDISK_USE_LZ4 := true
+ENABLE_VIRTUAL_AB := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
